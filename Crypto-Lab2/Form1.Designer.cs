@@ -47,6 +47,8 @@
             this.listAlgorithm = new System.Windows.Forms.ComboBox();
             this.listMode = new System.Windows.Forms.ComboBox();
             this.listPadding = new System.Windows.Forms.ComboBox();
+            this.openDialog = new System.Windows.Forms.OpenFileDialog();
+            this.saveDialog = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -217,6 +219,10 @@
             this.listPadding.Size = new System.Drawing.Size(121, 21);
             this.listPadding.TabIndex = 21;
             // 
+            // openDialog
+            // 
+            this.openDialog.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -269,6 +275,8 @@
         private System.Windows.Forms.ComboBox listAlgorithm;
         private System.Windows.Forms.ComboBox listMode;
         private System.Windows.Forms.ComboBox listPadding;
+        private System.Windows.Forms.OpenFileDialog openDialog;
+        private System.Windows.Forms.SaveFileDialog saveDialog;
     }
 }
 
