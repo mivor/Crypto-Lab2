@@ -22,5 +22,29 @@ namespace Crypto_Lab2
             listPadding.DataSource = Enum.GetValues(typeof(PaddingMode));
             listAlgorithm.DataSource = Enum.GetValues(typeof(Program.AlgName));
         }
+
+        //returns selected file name
+        private string getExstFileName()
+        {
+            string name = "No file selected!";
+            DialogResult result = openDialog.ShowDialog();
+            if ( result == DialogResult.OK )
+            {
+                name = openDialog.FileName;
+            }
+            return name;
+        }
+
+        //returns new file name
+        private string getNewFileName()
+        {
+            string name = "No name given!";
+            DialogResult result = saveDialog.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                name = openDialog.FileName;
+            }
+            return name;
+        }
     }
 }
