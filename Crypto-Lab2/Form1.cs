@@ -16,7 +16,11 @@ namespace Crypto_Lab2
         public Form1()
         {
             InitializeComponent();
-            listMode.DataSource = Enum.GetValues();
+
+            //Initialize lists with enum values
+            listMode.DataSource = Enum.GetValues(typeof(CipherMode));
+            listPadding.DataSource = Enum.GetValues(typeof(PaddingMode));
+            listAlgorithm.DataSource = Enum.GetValues(typeof(Program.AlgName));
         }
     }
 }
