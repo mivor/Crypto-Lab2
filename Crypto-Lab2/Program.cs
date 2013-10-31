@@ -8,6 +8,14 @@ namespace Crypto_Lab2
 {
     static class Program
     {
+        public enum AlgName
+        {
+            Aes,
+            DES,
+            RC2,
+            Rijndael,
+            TripleDES
+        }
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
