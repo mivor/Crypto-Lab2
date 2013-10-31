@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace Crypto_Lab2
 {
@@ -15,6 +16,7 @@ namespace Crypto_Lab2
         public Form1()
         {
             InitializeComponent();
+            listMode.DataSource = Enum.GetValues();
         }
     }
 }
