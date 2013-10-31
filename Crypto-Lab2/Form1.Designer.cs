@@ -72,7 +72,7 @@
             this.txtNrmFile.Enabled = false;
             this.txtNrmFile.Location = new System.Drawing.Point(91, 6);
             this.txtNrmFile.Name = "txtNrmFile";
-            this.txtNrmFile.Size = new System.Drawing.Size(100, 20);
+            this.txtNrmFile.Size = new System.Drawing.Size(121, 20);
             this.txtNrmFile.TabIndex = 2;
             // 
             // txtEncFile
@@ -80,12 +80,12 @@
             this.txtEncFile.Enabled = false;
             this.txtEncFile.Location = new System.Drawing.Point(91, 32);
             this.txtEncFile.Name = "txtEncFile";
-            this.txtEncFile.Size = new System.Drawing.Size(100, 20);
+            this.txtEncFile.Size = new System.Drawing.Size(121, 20);
             this.txtEncFile.TabIndex = 3;
             // 
             // btnNrmNew
             // 
-            this.btnNrmNew.Location = new System.Drawing.Point(198, 2);
+            this.btnNrmNew.Location = new System.Drawing.Point(218, 3);
             this.btnNrmNew.Name = "btnNrmNew";
             this.btnNrmNew.Size = new System.Drawing.Size(75, 23);
             this.btnNrmNew.TabIndex = 4;
@@ -94,7 +94,7 @@
             // 
             // btnNrmExs
             // 
-            this.btnNrmExs.Location = new System.Drawing.Point(279, 2);
+            this.btnNrmExs.Location = new System.Drawing.Point(299, 3);
             this.btnNrmExs.Name = "btnNrmExs";
             this.btnNrmExs.Size = new System.Drawing.Size(75, 23);
             this.btnNrmExs.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             // btnEncNew
             // 
-            this.btnEncNew.Location = new System.Drawing.Point(198, 28);
+            this.btnEncNew.Location = new System.Drawing.Point(218, 29);
             this.btnEncNew.Name = "btnEncNew";
             this.btnEncNew.Size = new System.Drawing.Size(75, 23);
             this.btnEncNew.TabIndex = 6;
@@ -112,7 +112,7 @@
             // 
             // btnEncExs
             // 
-            this.btnEncExs.Location = new System.Drawing.Point(280, 28);
+            this.btnEncExs.Location = new System.Drawing.Point(300, 29);
             this.btnEncExs.Name = "btnEncExs";
             this.btnEncExs.Size = new System.Drawing.Size(75, 23);
             this.btnEncExs.TabIndex = 7;
@@ -160,12 +160,12 @@
             this.txtKey.Enabled = false;
             this.txtKey.Location = new System.Drawing.Point(91, 60);
             this.txtKey.Name = "txtKey";
-            this.txtKey.Size = new System.Drawing.Size(100, 20);
+            this.txtKey.Size = new System.Drawing.Size(121, 20);
             this.txtKey.TabIndex = 12;
             // 
             // btnKeySel
             // 
-            this.btnKeySel.Location = new System.Drawing.Point(197, 57);
+            this.btnKeySel.Location = new System.Drawing.Point(217, 58);
             this.btnKeySel.Name = "btnKeySel";
             this.btnKeySel.Size = new System.Drawing.Size(75, 23);
             this.btnKeySel.TabIndex = 13;
@@ -221,7 +221,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 261);
+            this.ClientSize = new System.Drawing.Size(380, 261);
             this.Controls.Add(this.listPadding);
             this.Controls.Add(this.listMode);
             this.Controls.Add(this.listAlgorithm);
