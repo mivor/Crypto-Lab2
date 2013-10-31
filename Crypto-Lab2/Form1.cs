@@ -42,9 +42,29 @@ namespace Crypto_Lab2
             DialogResult result = saveDialog.ShowDialog();
             if (result == DialogResult.OK)
             {
-                name = openDialog.FileName;
+                name = saveDialog.FileName;
             }
             return name;
+        }
+
+        private void btnNrmNew_Click(object sender, EventArgs e)
+        {
+            txtNrmFile.Text = getNewFileName();
+        }
+
+        private void btnNrmExs_Click(object sender, EventArgs e)
+        {
+            txtNrmFile.Text = getExstFileName();
+        }
+
+        private void btnEncNew_Click(object sender, EventArgs e)
+        {
+            txtEncFile.Text = getNewFileName();
+        }
+
+        private void btnEncExs_Click(object sender, EventArgs e)
+        {
+            txtEncFile.Text = getExstFileName();
         }
     }
 }

@@ -93,6 +93,7 @@
             this.btnNrmNew.TabIndex = 4;
             this.btnNrmNew.Text = "New";
             this.btnNrmNew.UseVisualStyleBackColor = true;
+            this.btnNrmNew.Click += new System.EventHandler(this.btnNrmNew_Click);
             // 
             // btnNrmExs
             // 
@@ -102,6 +103,7 @@
             this.btnNrmExs.TabIndex = 5;
             this.btnNrmExs.Text = "Existing";
             this.btnNrmExs.UseVisualStyleBackColor = true;
+            this.btnNrmExs.Click += new System.EventHandler(this.btnNrmExs_Click);
             // 
             // btnEncNew
             // 
@@ -111,6 +113,7 @@
             this.btnEncNew.TabIndex = 6;
             this.btnEncNew.Text = "New";
             this.btnEncNew.UseVisualStyleBackColor = true;
+            this.btnEncNew.Click += new System.EventHandler(this.btnEncNew_Click);
             // 
             // btnEncExs
             // 
@@ -120,6 +123,7 @@
             this.btnEncExs.TabIndex = 7;
             this.btnEncExs.Text = "Existing";
             this.btnEncExs.UseVisualStyleBackColor = true;
+            this.btnEncExs.Click += new System.EventHandler(this.btnEncExs_Click);
             // 
             // label3
             // 
